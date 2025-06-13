@@ -25,10 +25,7 @@ public class PagoServiciosStrategy implements Strategy{
     }
 
     private boolean esPromocionValida() {
-        return true; // lógica real futura
+        return true;
     }
 
-    private void marcarFacturaComoPagada(String referencia) {
-        // registrar que la factura fue pagada
-    }
 }
